@@ -14,7 +14,7 @@ def initialize_model():
     hf_model = "Salesforce/blip-image-captioning-large"
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     processor = BlipProcessor.from_pretrained(hf_model)
-    model = BlipForConditionalGeneration.from_pretrained(hf_model).to(device) # type: ignore
+    model = BlipForConditionalGeneration.from_pretrained(hf_model).to(device)
     return processor, model, device
 
 def upload_image():
