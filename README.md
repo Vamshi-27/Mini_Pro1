@@ -35,4 +35,4 @@ A simple web application that generates captions for images using AI.
 
 ## Model Used
 
-This project uses the **Salesforce/blip-image-captioning-large** model from Hugging Face, which is a state-of-the-art vision-language model for image captioning.
+This project uses the **BLIP** model, which is an advanced AI model that generates accurate and detailed captions for images.
